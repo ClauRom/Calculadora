@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap');
+
+body {
+    background-color: #E0B1CB;
+}
+header{
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    font-family: "Edu TAS Beginner", cursive;
+    color: #d0d1ff;
+}
+.inicio{
+    display: flex;
+    background-color: #3e1f47;
+}
+
+.inicio img{
+    width: 100px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main{
+    margin: 150px;
+    width: 290px;
+    text-align: center;
+    border-radius: 5px;
+    background-size: cover;
+    background-image: url(./Img/fondo.jpg);
+}
+
+.all-input{
+    text-align: left;
+    width: 265px;
+    margin: 5px;
+}
+
+input{
+    outline: none;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #d16f6f;
+    background: #e4d9d9;
+    border-radius: 26px;
+    margin: 5px;
+    float: left;
+    font-size: 20px;
+    height: 55px;
+    width: 55px;
+}
+
+#answer{
+    width: 258px;
+    font-size: 26px;
+    text-align: right;
+    background: transparent;
+    float: left;
+    font-size: 53px;
+    color: #5E548E;
+    font-weight: 100 !important;
+    margin-top: 130px;
+}
+
+.operator:hover{
+    background-color: black;   
+    color: #d16f6f;
+}
+
+.gif{
+    width: 50px;
+}
+footer{
+    background-color: #231942;
+    color: #E0B1CB;
+    padding: 15px;
+}

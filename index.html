@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="inicio">
+        <header><b></b>Calculadora</header>
+        <img src="./Img/Calculadora.png" alt="Calculadora">
+    </div>
+        <center><img src="./Img/dividir.png" alt=""></center>
+        <div class="contenido">
+            <img src="./Img/corazon.png" alt="" width="400px">
+            <form name="calc" class="main">
+                <br>
+                <div class="screen">
+                    <input type="text" name="input" id="answer">
+                </div>
+                <div class="all-input">
+                    <input type="button" id="clear" name="clear" value="AC" onclick="calc.input.value=''">
+                    <input type="button" id="clear" name="plismins" value="+/-" onclick="calc.input.value=''">
+                    <input type="button" id="clear" name="percent" value="%" onclick="calc.input.value=''">
+                    
+                    <input type="button" id="operator" name="div" value="/" onclick="calc.input.value+='/'">
+                    <input type="button" id="num" name="seven" value="7" onclick="calc.input.value+='7'">
+                    <input type="button" id="num" name="eight" value="8" onclick="calc.input.value+='8'">
+                    <input type="button" id="num" name="nine" value="9" onclick="calc.input.value+='9'">
+                    <input type="button" id="operator" name="times" value="*" onclick="calc.input.value+='*'">
+                    
+                    <input type="button" id="num" name="four" value="4" onclick="calc.input.value+='4'">
+                    <input type="button" id="num" name="fiv" value="5" onclick="calc.input.value+='5'">
+                    <input type="button" id="num" name="six" value="6" onclick="calc.input.value+='6'">
+                    <input type="button" id="operator" name="minus" value="-" onclick="calc.input.value+='-'">
+                    
+                    <input type="button" id="num" name="one" value="1" onclick="calc.input.value+='1'">
+                    <input type="button" id="num" name="two" value="2" onclick="calc.input.value+='2'">
+                    <input type="button" id="num" name="three" value="3" onclick="calc.input.value+='3'">
+                    <input type="button" id="operator" name="plus" value="+" onclick="calc.input.value+='+'">
+                    
+                    <input type="button" id="num" name="zero" value="0" onclick="calc.input.value+='0'" style="width: 118px;">
+                    <input type="button" id="num" name="dot" value="." onclick="calc.input.value+='.'">
+
+                    <input type="button" id="operator" name="doit" value="=" onclick="calc.input.value=eval(calc.input.value)">
+                </div>
+            </form> 
+            <div class="gif">
+                    <img src="./Img/gif.gif" alt="astronauta-math">
+                </div>
+        </div>
+    
+    <footer>
+        <h4>Esta claculadora fue creada por Claudia Romero ❤ ❤</h4>
+    </footer>
+</body>
+</html>
